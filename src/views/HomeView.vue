@@ -43,7 +43,7 @@
 import { useCharacterListStore } from '../stores/characterList'
 import { onMounted, ref, computed } from 'vue'
 import { storeToRefs } from 'pinia'
-import { CharacterCard } from '/home/mans/Рабочий стол/test/Data_heroes_test/data_heroes_test/src/components/CharacterCard/CharacterCard.vue'
+import { CharacterCard } from '../components/CharacterCard'
 
 const characterListStore = useCharacterListStore()
 const { characters } = storeToRefs(characterListStore)
